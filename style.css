@@ -6345,6 +6345,10 @@ div.foot-copy {
     text-decoration: underline;
 }
 
+.entry-content-rctv p {
+    color: black;
+}
+
 .entry-header.alignwide>.post-thumbnail {
     width: 50%;
     display: inline-block;
@@ -6383,6 +6387,7 @@ header.entry-header.alignwide>span.tags-links>a {
     font-size: 10pt;
     border-radius: 5px;
     vertical-align: middle;
+    transition: .2s all;
 }
 
 div.post-taxonomies>span.tags-links>a:hover,
